@@ -1,0 +1,68 @@
+.invite-user {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .invite-user h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .invite-user form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .invite-user label {
+    margin-bottom: 5px;
+  }
+  
+  .invite-user input[type='email'] {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .invite-user button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .invite-user button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal p {
+    margin-bottom: 10px;
+  }
+  
+  .modal button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .modal button:hover {
+    background-color: #0056b3;
+  }
+  
